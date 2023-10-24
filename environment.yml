@@ -1,0 +1,9 @@
+name: idsscraping
+channels:
+- conda-forge
+dependencies:
+- pandas
+- python
+- requests
+- selenium
+
