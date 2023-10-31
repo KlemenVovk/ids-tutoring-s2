@@ -24,7 +24,7 @@ driver.get(URL)
 # scroll down to the bottom of the page (our element only appears when we scroll down)
 driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 # give the page time to load
-time.sleep(3)
+time.sleep(5)
 
 # Find the div that has the top-box-office class (the section of the page we want)
 top_box_office = driver.find_element(By.CLASS_NAME, "top-box-office")
