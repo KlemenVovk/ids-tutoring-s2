@@ -4,14 +4,17 @@ We will be scraping [IMDB](https://www.imdb.com) and obeying their [robots.txt](
 Note: IMDB has an API and it would be more suitable for this as discussed during the tutoring sessions, however we will stick to browser automation for scraping so that you practice for your hands-on exam.
 
 The goal of this task is to scrape the top 10 (box office) movies and some data about them. You can find them by going to the [IMDB homepage](https://www.imdb.com) and scrolling down until you see something like this:
+
 ![imdbhomepage](imdb_homepage_screen.png)
 
 Clicking on the `Top box office (US)` brings you [to the following page](https://www.imdb.com/chart/boxoffice/?ref_=hm_cht_sm) containing the top 10 movies you need to scrape (only 6 are shown by default)
+
 ![chart page](imdb_top.png).
 
 I want you to implement a scraper with Selenium **that starts on the homepage (for practice reasons)**. Although in practice, you would choose the link of the top box office chart as the starting point.
 
 The page of each movie (if you click on the movie title in the chart) looks something like this:
+
 ![movie page](imdb_movie.png)
 
 The details you should scrape for each of the top 10 box office movies are (based on the screenshot example):
